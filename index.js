@@ -34,7 +34,7 @@ function render(){
     for (let i = 0; i < posts.length; i++) {
          postsEl.innerHTML += `
                         <section class="user2-info">
-                            <img class="user2-avatar-logo" src="${posts[i].name}" alt="avatar of ${posts[i].avatar}">
+                            <img class="user2-avatar-logo" src="${posts[i].avatar}" alt="avatar of ${posts[i].name}">
                             <div class="user2-name">
                                 <h2>${posts[i].name}</h2>
                                 <h3>${posts[i].location}</h3>
